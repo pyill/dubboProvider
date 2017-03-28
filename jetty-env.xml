@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+<Configure id='wac' class="org.mortbay.jetty.webapp.WebAppContext">
+<!-- 	<New id="CAS" class="org.mortbay.jetty.plus.naming.Resource">
+		<Arg>jdbc/casdb</Arg>
+		<Arg>
+			<New class="oracle.jdbc.pool.OracleConnectionPoolDataSource">
+				<Set name="URL">jdbc:oracle:thin:@172.16.58.17:1521:orcl</Set>
+				<Set name="User">uaac_scjg</Set>
+				<Set name="Password">123456</Set>
+			</New>
+		</Arg>
+	</New>
+
+	<New id="ghbsp" class="org.mortbay.jetty.plus.naming.Resource">
+		<Arg>jdbc/ghbspdb</Arg>
+		<Arg>
+			开发环境
+			<New class="oracle.jdbc.pool.OracleConnectionPoolDataSource">
+				 <Set name="URL">jdbc:oracle:thin:@172.16.58.17:1521:orcl</Set>
+				 <Set name="User">gh_dev</Set>
+				 <Set name="Password">123456</Set>
+			</New>
+		</Arg>
+	</New> -->
+</Configure>
